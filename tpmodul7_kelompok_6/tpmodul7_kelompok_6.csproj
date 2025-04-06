@@ -8,6 +8,18 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="tp7_2_103022300014.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Page Include="tp7_2_103022300014.json" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Update="tp7_1_103022300014.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
