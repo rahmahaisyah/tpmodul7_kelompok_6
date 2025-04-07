@@ -4,8 +4,8 @@
     {
         static void Main(string[] args)
         {
-
-            DataMahasiswa103022300014.ReadJSON();
+            
+            //DataMahasiswa103022300014.ReadJSON();
             Console.WriteLine();
             //KuliahMahasiswa103022300014.ReadJSON();
 
@@ -13,8 +13,10 @@
             Console.WriteLine();
             DataMahasiswa103022300065.ReadJSON();
             Console.WriteLine();
-          
-            DataMahasiswa103022300072.ReadJSON();
+            KuliahMahasiswa103022300065.ReadJSON();   
+            Console.WriteLine();
+
+            //DataMahasiswa103022300072.ReadJSON();
             Console.WriteLine(); 
             //KuliahMahasiswa103022300072.ReadJSON();
         }

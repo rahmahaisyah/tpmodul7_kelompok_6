@@ -27,9 +27,6 @@ namespace tpmodul7_kelompok_6
             try
             {
                 string jsonContent = File.ReadAllText(filePath);
-
-                
-
                 Mahasiswa mhs = JsonSerializer.Deserialize<Mahasiswa>(jsonContent);
                 Console.WriteLine($"Nama {mhs.Nama.Depan} {mhs.Nama.Belakang} dengan nim {mhs.Nim} dari fakultas {mhs.Fakultas}");
             }
