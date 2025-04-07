@@ -21,7 +21,8 @@
 
             //Console.WriteLine();
             DataMahasiswa103022300153.ReadJSON();
-            //Console.WriteLine();
+            Console.WriteLine();
+            KuliahMahasiswa103022300153.ReadJSON();
         }
     }
 }
