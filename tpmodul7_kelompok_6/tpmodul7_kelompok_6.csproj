@@ -13,8 +13,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
   </ItemGroup>
+
+
 
   <ItemGroup>
     <Page Include="tp7_2_103022300014.json" />
@@ -24,8 +26,6 @@
     <None Update="tp7_1_103022300014.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-
-    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
 
   </ItemGroup>
 
